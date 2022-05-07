@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="./assets/css/fontawesome.css">
     <link rel="stylesheet" href="./bootstrap.css">
     <link rel="stylesheet" href="./style.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
           integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="icon" href="./img/opion%20logo1.png"/>
     <title>Opion | home </title>
+
 </head>
 <body>
 <div class="hero">
@@ -32,7 +34,7 @@
                         <a class="nav-link active" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link" href="#services">SERVICES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about-us.html">ABOUT US</a>
@@ -40,7 +42,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./contact/contact-us.html">CONTACT</a>
                     </li>
-                    <button type="button" class="rounded-pill btn-rounded">+1(780)200-8319 <span>
+                    <button type="button" class="rounded-pill btn-rounded mobile">+1(780)200-8319 <span>
             <i class="fas fa-phone-alt"></i>
           </span></button>
                     </li>
@@ -72,10 +74,10 @@
 </div>
 
 <!--services-->
-<section id="services" class="services">
+<section class="services">
     <div class="container">
         <div class="row text-center">
-            <h1 class="display-3 fw-bold">Our services</h1>
+            <h1 class="display-3 fw-bold" id="services">Our services</h1>
             <div class="heading-line mb-5"></div>
         </div>
     </div>
@@ -160,24 +162,27 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
 </section>
 
 <!--core values-->
 
-<section class="core-values">
+<section class="container chess-box-alt">
     <div class="row">
-        <div class="col-md-6">
-            <div class="container">
-                <img src="./img/opportunity.png" alt="opportunitues" class="img">
-                <p class="chess-p">We create opportunities for our clients to grow with us , chart new ideas and self direct their
-                    transformation </p>
+        <div class="col-md-6 chess-box-1">
+            <div class="container py-5 ">
+                <img src="./img/opportunity.png" alt="opportunitues" class="img-chess">
+                <p class="chess-p">We create opportunities for our clients to grow with us , chart new ideas and self
+                    direct their transformation.</p>
             </div>
         </div>
-        <div class="col-md-6 chess">
-            <div class="container">
-                <img src="./img/project-management.png" alt="" class="img">
-                <p class="chess-p">We respond to emergent needs and continously seek innovative and creative opportunities to develop
+        <div class="col-md-6 chess chess-box-2">
+            <div class="container py-5">
+                <img src="./img/project-management.png" alt="" class="img-chess">
+                <p class="chess-p">We respond to emergent needs and continously seek innovative and creative
+                    opportunities to develop
                     and
                     improve services in our area of expertise</p>
             </div>
@@ -185,29 +190,39 @@
     </div>
     <div class="row">
         <div class="col-md-6 chess">
-            <div class="container">
-                <img src="./img/service.png" alt="" class="img">
-                <p class="chess-p">We provide a wide range of products and services that expand options,empower customers and clients to
+            <div class="container py-5">
+                <img src="./img/service.png" alt="" class="img-chess">
+                <p class="chess-p">We provide a wide range of products and services that expand options,empower
+                    customers and clients to
                     have control and respond proactively to their existing and emerging needs </p>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="container">
-                <img src="./img/excellence.png" alt="" class="img">
-                <p class="chess-p">We are dedicated to product adn service excellence, placing high priority on our clients/customers
+        <div class="col-md-6 chess-box-4">
+            <div class="container py-5">
+                <img src="./img/excellence.png" alt="" class="img-chess">
+                <p class="chess-p">We are dedicated to product adn service excellence, placing high priority on our
+                    clients/customers
                     positive transformation as well as building a better and sustainable brand together</p>
             </div>
         </div>
+    </div>
 </section>
 
+<div class="container">
+    <div class="row mt-5">
+        <div class="col"><hr></div>
+    </div>
+</div>
+
 <!--FOOTER-->
-<footer>
+<section>
     <div class="container">
         <div class="row">
             <div class="col-md-6 ">
                 <div class="image pt-5">
                     <img src="./img/undraw_With_love_re_1q3m%20(1).png" alt="" class="img-fluid hero-image love">
-                    <h3 class="text-center my-text" style="margin-top: -35px;color: #f19710">We would love to hear from you</h3>
+                    <h3 class="text-center my-text" style="margin-top: -35px;color: #f19710">We would love to hear from
+                        you</h3>
                 </div>
             </div>
 
@@ -226,7 +241,7 @@
                                placeholder="Message">
                     </div>
 
-                    <div class="Offset-2 col-lg-4 " style="margin-left: 290px ;  margin-top:10px;color:#f19710">
+                    <div class="Offset-2 col-lg-4  send text-right" >
                         <a href="" style="color:#f19710;">Send<i class="fas fa-arrow-right " style="color: #f19710"></i></a>
                     </div>
                 </form>
@@ -273,7 +288,7 @@
                 <div class="col-md-4 col-lg-4 contact-box pt-1">
                     <div class="contact-box icon  d-flex justify-content-center  w-100">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2"
-                             viewBox="0 0 24 24" stroke-width="1"  fill="none"
+                             viewBox="0 0 24 24" stroke-width="1" fill="none"
                              stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <line x1="18" y1="6" x2="18" y2="6.01"/>
@@ -290,8 +305,60 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
 
+<!--
+<div class="container ">
+    <div class="row mt-5">
+        <div class="col"><hr></div>
+    </div>
+</div>
+-->
+
+<div class="div-block-116 py-5">
+    <div class="hr-long"></div>
+</div>
+
+<footer class="footer py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 w-100">
+                <p class="text-center">OpionOnline</p>
+            </div>
+            <div class="col-md-4">
+             <p class="text-center">Links</p>
+                <ul class="list w-100 text-center d-block">
+                    <li class="list-item">
+                        <a href="" class="footer-link" >About us</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">Products</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">services</a>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 ">
+                <p class="text-center">Follow us on</p>
+                <div class="media-icons">
+
+                        <a href="" ><i class="fab fa-facebook " ></i></a>
+
+
+                        <a href="" ><i class="fab fa-twitter " ></i></a>
+
+
+                        <a href="" ><i class="fab fa-instagram " ></i></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
+
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -299,7 +366,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
+<script src="jquery_slim.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
+
+<script src="script.js"></script>
 
 </body>
 </html>
